@@ -29,3 +29,10 @@ list_title: "全ブログ一覧"
 # 設定に関する記事
 
 - [学内ネットワークでaptコマンドを利用する方法](2019/11/17/181758.html)
+
+# お問い合わせ
+お問い合わせは、Twitterの[ダイレクトメッセージ](https://twitter.com/__ruby_python__)または下のリンクよりお願いします。
+このリンクは`heroku`の無料枠を利用しているので、アクセスに時間がかかります。
+お急ぎの方はTwitterよりお願いします。
+
+- [お問い合わせ](https://sekiei.herokuapp.com/ruby_python_programming_circle)
