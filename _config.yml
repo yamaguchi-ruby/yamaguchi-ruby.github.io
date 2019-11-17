@@ -1,0 +1,7 @@
+baseurl: ""
+
+exclude:
+    - article.new
+    - LICENCE
+    - README.md
+    - _posts/2019-11-03-000500.md
