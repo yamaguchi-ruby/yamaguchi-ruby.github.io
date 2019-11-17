@@ -103,6 +103,20 @@ body
                     border-radius: 4px
                     overflow-x: auto
 
+                pre
+                    code
+                        code
+                            counter-increment: linenumber
+                    
+                        & > code::before
+                            content: counter(linenumber)
+                            width: 32px
+                            display: inline-block
+                            text-align: right
+                            margin-right: 16px
+                            font-weight: normal
+                            color: #889
+
 @media screen and (max-width:360px)
     body
         article

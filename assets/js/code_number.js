@@ -1,0 +1,1 @@
+$(function(){var e=$("pre");for(i=0;i<e.length;i++){var n=$("pre").eq(i),r=n.html().match(/.*\n/g);for(j=0;j<r.length;j++)r[j]=`<code>${r[j].replace(/\r?\n/g,"")}</code>\n`;n.html(r.join(""))}});
