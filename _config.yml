@@ -6,3 +6,5 @@ exclude:
     - README.md
     - _posts/2019-11-03-000500.md
     - test.rb
+    - test.go
+    - foo/*
