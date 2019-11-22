@@ -2,7 +2,8 @@
 ---
 
 $font-color: #334
-$a-color: #29e
+//$a-color: #29e
+$a-color: #e5b
 $bg-gray: #eef
 
 body
@@ -11,6 +12,9 @@ body
     display: flex
     flex-flow: column
     min-height: 100vh
+    font-family: HuiFontP109
+    background-image: url(/assets/images/rbpy.svg)
+    background-size: 200px
 
     a
         color: $a-color
@@ -18,8 +22,8 @@ body
 
     header
         height: 80px
-        background: $font-color
-        color: $bg-gray
+        //background: $font-color
+        //color: $bg-gray
         line-height: 80px
         font-size: 26px
         user-select: none
@@ -27,7 +31,7 @@ body
             max-width: 1200px
             margin: 0 auto
             a
-                color: $bg-gray
+                //color: $bg-gray
 
     footer
         height: 80px
@@ -43,6 +47,8 @@ body
         font-size: 16px
         max-width: 1200px
         width: 100%
+        padding: 64px
+        background: #eefc
 
         table
             border-collapse: collapse
@@ -120,8 +126,8 @@ body
 @media screen and (max-width:360px)
     body
         article
-            margin: 0 8px
             width: unset
+            padding: 16px
         header
             div#header
                 margin-left: 8px
@@ -129,5 +135,9 @@ body
 @media screen and (max-width:1200px)
     body
         article
-            margin: 0 16px
             width: unset
+            padding: 32px
+
+@font-face 
+    font-family: HuiFontP109
+    src: url("/assets/fonts/HuiFontP109.woff") format("woff")
