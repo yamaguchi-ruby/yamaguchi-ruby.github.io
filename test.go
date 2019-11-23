@@ -1,8 +1,13 @@
 package main
-import "fmt"
-import "./foo"
+import (
+    "fmt"
+    //"math"
+)
 
 func main(){
-    fmt.Println("hoge")
-    fmt.Println(foo.Foo())
+    fmt.Println(f(3))
+}
+
+func f(x int) int{
+    return x * x
 }
