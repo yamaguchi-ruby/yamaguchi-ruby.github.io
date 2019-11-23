@@ -1,13 +1,11 @@
 package main
-import (
-    "fmt"
-    //"math"
-)
 
-func main(){
-    fmt.Println(f(3))
+import "fmt"
+
+func swap(a, b int) (int, int){
+    return b, a
 }
 
-func f(x int) int{
-    return x * x
+func main(){
+    fmt.Println(swap(2, 1))
 }
