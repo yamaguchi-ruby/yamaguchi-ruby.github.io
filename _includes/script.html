@@ -1,3 +1,10 @@
 <script src="{{ "/assets/js/jquery-3.4.1.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/article_time.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/code_number.js" | relative_url }}"></script>
+<script>
+$.ajax({
+    type: "POST",
+    url: "http://localhost:3000/access_api",
+    data: { uid: "142c2d911d4c4d05887ec7beff080b25" }
+})
+</script>
