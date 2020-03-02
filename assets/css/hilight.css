@@ -1,11 +1,14 @@
 .highlight {
-    background: #fff;
+    background: #fafafa;
+    color: #fafafa;
+    font-family: Ubuntu Mono, monospace;
+    font-weight: bold;
 }
 .highlighter-rouge .highlight {
-    background: #eef;
+    background: #212121;
 }
 .highlight .c {
-    color: #998;
+    color: #9E9E9E;
     font-style: italic;
 }
 .highlight .err {
@@ -19,61 +22,61 @@
     font-weight: bold;
 }
 .highlight .cm {
-    color: #998;
+    color: #9E9E9E;
     font-style: italic;
 }
 .highlight .cp {
-    color: #999;
+    color: #9E9E9E;
     font-weight: bold;
 }
 .highlight .c1 {
-    color: #998;
+    color: #9E9E9E;
     font-style: italic;
 }
 .highlight .cs {
-    color: #999;
+    color: #9E9E9E;
     font-weight: bold;
     font-style: italic;
 }
 .highlight .gd {
-    color: #000;
+    color: #212121;
     background-color: #fdd;
 }
 .highlight .gd .x {
-    color: #000;
+    color: #212121;
     background-color: #faa;
 }
 .highlight .ge {
     font-style: italic;
 }
 .highlight .gr {
-    color: #a00;
+    color: #E64A19;
 }
 .highlight .gh {
-    color: #999;
+    color: #9E9E9E;
 }
 .highlight .gi {
-    color: #000;
-    background-color: #dfd;
+    color: #212121;
+    background-color: #E0E0E0;
 }
 .highlight .gi .x {
-    color: #000;
-    background-color: #afa;
+    color: #212121;
+    background-color: #43A047;
 }
 .highlight .go {
-    color: #888;
+    color: #9E9E9E;
 }
 .highlight .gp {
-    color: #555;
+    color: #9E9E9E;
 }
 .highlight .gs {
     font-weight: bold;
 }
 .highlight .gu {
-    color: #aaa;
+    color: #9E9E9E;
 }
 .highlight .gt {
-    color: #a00;
+    color: #E64A19;
 }
 .highlight .kc {
     font-weight: bold;
@@ -88,111 +91,111 @@
     font-weight: bold;
 }
 .highlight .kt {
-    color: #458;
+    color: #283593;
     font-weight: bold;
 }
 .highlight .m {
-    color: #099;
+    color: #00695C;
 }
 .highlight .s {
-    color: #d14;
+    color: #D32F2F;
 }
 .highlight .na {
-    color: teal;
+    color: #00897B;
 }
 .highlight .nb {
-    color: #0086b3;
+    color: #1976D2;
 }
 .highlight .nc {
-    color: #458;
+    color: #3F51B5;
     font-weight: bold;
 }
 .highlight .no {
-    color: teal;
+    color: #00897B;
 }
 .highlight .ni {
-    color: purple;
+    color: #673AB7;
 }
 .highlight .ne {
-    color: #900;
+    color: #F44336;
     font-weight: bold;
 }
 .highlight .nf {
-    color: #900;
+    color: #F44336;
     font-weight: bold;
 }
 .highlight .nn {
-    color: #555;
+    color: #616161;
 }
 .highlight .nt {
-    color: navy;
+    color: #7986CB;
 }
 .highlight .nv {
-    color: teal;
+    color: #00897B;
 }
 .highlight .ow {
     font-weight: bold;
 }
 .highlight .w {
-    color: #bbb;
+    color: #BDBDBD;
 }
 .highlight .mf {
-    color: #099;
+    color: #00897B;
 }
 .highlight .mh {
-    color: #099;
+    color: #00897B;
 }
 .highlight .mi {
-    color: #099;
+    color: #00897B;
 }
 .highlight .mo {
-    color: #099;
+    color: #00897B;
 }
 .highlight .sb {
-    color: #d14;
+    color: #F44336;
 }
 .highlight .sc {
-    color: #d14;
+    color: #F44336;
 }
 .highlight .sd {
-    color: #d14;
+    color: #F44336;
 }
 .highlight .s2 {
-    color: #d14;
+    color: #F44336;
 }
 .highlight .se {
-    color: #d14;
+    color: #F44336;
 }
 .highlight .sh {
-    color: #d14;
+    color: #F44336;
 }
 .highlight .si {
-    color: #d14;
+    color: #F44336;
 }
 .highlight .sx {
-    color: #d14;
+    color: #F44336;
 }
 .highlight .sr {
-    color: #009926;
+    color: #009688;
 }
 .highlight .s1 {
-    color: #d14;
+    color: #F44336;
 }
 .highlight .ss {
-    color: #990073;
+    color: #9C27B0;
 }
 .highlight .bp {
-    color: #999;
+    color: #9E9E9E;
 }
 .highlight .vc {
-    color: teal;
+    color: #00897B;
 }
 .highlight .vg {
-    color: teal;
+    color: #00897B;
 }
 .highlight .vi {
-    color: teal;
+    color: #00897B;
 }
 .highlight .il {
-    color: #099;
+    color: #00897B;
 }
