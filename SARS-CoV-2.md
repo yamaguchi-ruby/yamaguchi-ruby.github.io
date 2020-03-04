@@ -72,4 +72,7 @@ body{
 body article{
     background: #212121;
 }
+body footer{
+    background: #212121;
+}
 </style></p>
