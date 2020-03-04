@@ -3,6 +3,7 @@ layout: article
 title: 日本の新型コロナウイルス感染者
 ---
 
+
 <p style="font-weight: 300; font-size:2.5em;">
 <ruby>日本の<rt>Infected individuals</rt></ruby><ruby>新型コロナウイルス<rt> with Wuhan coronavirus (SARS-CoV-2)</rt></ruby><ruby>感染者<rt> in Japan</rt></ruby>
 </p>

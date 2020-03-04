@@ -1,10 +1,21 @@
 <script src="{{ "/assets/js/jquery-3.4.1.min.js" | relative_url }}"></script>
-<script src="{{ "/assets/js/article_time.js" | relative_url }}"></script>
+<!-- <script src="{{ "/assets/js/article_time.js" | relative_url }}"></script> -->
 <script src="{{ "/assets/js/code_number.js" | relative_url }}"></script>
-<script>
+<!-- <script>
 $.ajax({
     type: "POST",
     url: "https://sekiei.herokuapp.com/access_api",
     data: { uid: "142c2d911d4c4d05887ec7beff080b25" }
 })
+</script> -->
+
+<script src="https://himeyama.github.io/KeisanJS/era.js"></script>
+<script>
+    let now = new Era("{{ site.time }}".match(/\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2}/)[0])
+    let update = document.createElement("time")
+    document.getElementsByTagName("footer")[0].append(update)
+    // console.log(update)
+    // up = update
+    update.style.display = "block"
+    update.innerText = `${now.getWareki()}${now.getHours()}時${now.getMinutes()}分${now.getSeconds()}秒 更新`
 </script>
