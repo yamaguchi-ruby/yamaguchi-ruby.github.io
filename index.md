@@ -18,9 +18,10 @@ list_title: "全ブログ一覧"
 - プログラミング言語に興味がある人
 - ArduinoやRaspberry Piで電子工作をしたい人
 - 自作PCに興味がある人
+
 におすすめです。
 
-プログラムでよく扱う言語は`Ruby`、`Python`、`C`です。
+プログラムでよく扱う言語は`Ruby`、`Python`、`C`、`JavaScript`です。
 
 # 新型コロナウイルスについての注意喚起
 新型コロナウイルスが日本に上陸しています。
@@ -79,7 +80,11 @@ list_title: "全ブログ一覧"
 
 # 作ってみよう
 
-- [ウェブページを作ってみる](create_webpage/)
+- [ウェブページを作ってみる(Ubuntu, Ruby, Jekyll)](create_webpage/)
+- [JavaScriptで文字列を書く(JavaScript)](jsmojiretsu.html)
+- [ゆっくり繰り返すsetInterval(JavaScript)](jssi.html)
+- [平均・分散・標準偏差を求める(Ruby)](mean_var_sd.html)
+- [ガチャで何回引けばレアが出るかのシミュレーションのプログラム(Ruby)](gacha.html)
 
 # お問い合わせ
 お問い合わせは、Twitterの[ダイレクトメッセージ](https://twitter.com/__ruby_python__)または下のリンクよりお願いします。
