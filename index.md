@@ -68,10 +68,18 @@ list_title: "全ブログ一覧"
 
 # 設定に関する記事
 
-- [Ruby のインストール方法](2019/11/18/085538.html)
-- [aptを学内で利用する方法(プロキシ)](2019/11/17/181758.html)
-- [gitを学内で利用する方法(プロキシ)](github_gakunai.html)
-- [Visual Studio Codeを学内で利用する(プロキシ)](code_gakunai.html)
+## Windows
+- [WSLのインストール方法(Windows)](install_wsl/)
+
+## Ubuntu 
+- [Ruby のインストール方法(Ubuntu)](2019/11/18/085538.html)
+- [aptを学内で利用する方法(プロキシ設定)](2019/11/17/181758.html)
+- [gitを学内で利用する方法(プロキシ設定)](github_gakunai.html)
+- [Visual Studio Codeを学内で利用する(プロキシ設定)](code_gakunai.html)
+
+# 作ってみよう
+
+- [ウェブページを作ってみる](create_webpage/)
 
 # お問い合わせ
 お問い合わせは、Twitterの[ダイレクトメッセージ](https://twitter.com/__ruby_python__)または下のリンクよりお願いします。
@@ -79,6 +87,5 @@ list_title: "全ブログ一覧"
 お急ぎの方はTwitterよりお願いします。
 
 - [お問い合わせ](https://sekiei.herokuapp.com/ruby_python_programming_circle)
-
 
 <script src="assets/js/title_anime.js"></script>
