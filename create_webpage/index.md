@@ -17,7 +17,7 @@ Jekyllでウェブページを作成し、GitHub Pagesを利用して公開す�
 WSLをインストールする。
 ([WSLのインストール方法](../install_wsl/))
 
-## Rubyをインストールする
+## Ruby をインストールする
 Rubyをインストールする([Ruby のインストール方法](../2019/11/18/085538.html))
 
 ## エディターを準備する
@@ -37,7 +37,7 @@ gem install jekyll
 
 Windowsの場合はWSLのUbuntu上で実行する。
 
-## GitHubに登録する
+## GitHub に登録する
 ウェブページを公開するために普通はサーバーが必要だが、
 サーバーの管理やセキュリティー上難易度が高いので、この記事ではGitHub Pagesを利用する。
 このGitHub Pagesを利用するためにはGitHubに登録する必要がある。
@@ -45,7 +45,7 @@ Windowsの場合はWSLのUbuntu上で実行する。
 [GitHub](//github.com)に登録することでウェブページを公開することができる。
 
 # Github Pages チュートリアル
-[GitHub Pagesを使ってみる](use_githubpages.html)
+[GitHub Pagesを使ってみる](use_githubpages.html)(飛ばしても良い)
 
 # 作業ディレクトリーを作る
 作業ディレクトリー(ウェブページのフォルダー)を作る。
@@ -125,3 +125,39 @@ git config --global user.email "メールアドレス"
 1. 5分待って、リンクが出るのでクリックするとウェブページを表示できる。
 
 GitHubの操作がわからない場合は、[GitHub Pages を使ってみる](use_githubpages.html)を参照。
+
+# Jekyll のテンプレートを作る
+
+作業ディレクトリーに`_layouts`ディレクトリーを作成して、`template.html`ファイルを作成する。
+この、`template.html`が雛形となる。
+
+    {% assign c = "{{ content }}" %}
+
+```html
+<!-- _layouts/template.html -->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        {{ c }}
+    </body>
+</html>
+```
+
+# 作成した雛形を使い、ページを作成する。
+
+`layout: `で設定する文字は`_layouts/`の雛形のファイル(拡張子を除く)である。
+
+```markdown
+<!-- test.md -->
+---
+layout: template
+---
+
+# Hello, world
+```
+
+`test.md`から生成される[test.html](test.html)はリンク先のように表示される。
+
