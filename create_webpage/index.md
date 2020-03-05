@@ -151,11 +151,11 @@ GitHubの操作がわからない場合は、[GitHub Pages を使ってみる](u
 `layout: `で設定する文字は`_layouts/`の雛形のファイル(拡張子を除く)である。
 
 ```markdown
-<!-- test.md -->
 ---
 layout: template
 ---
 
+<!-- test.md -->
 # Hello, world
 ```
 
