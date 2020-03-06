@@ -8,3 +8,6 @@ exclude:
     - test.rb
     - test.go
     - foo/*
+
+timezone: Asia/Tokyo
+
