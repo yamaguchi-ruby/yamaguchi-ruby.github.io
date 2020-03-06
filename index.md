@@ -80,9 +80,14 @@ list_title: "全ブログ一覧"
 
 # 作ってみよう
 
+## Web系(HTML, CSS, JavaScript, ...)
 - [ウェブページを作ってみる(Ubuntu, Ruby, Jekyll)](create_webpage/)
 - [JavaScriptで文字列を書く(JavaScript)](jsmojiretsu.html)
 - [ゆっくり繰り返すsetInterval(JavaScript)](jssi.html)
+- [昼と夜でスタイルを変える(CSS, JavaScript)](hiruyoru.html)
+- [カレンダーを作る(JavaScript)](calendar.html)
+
+## プログラム(Ruby, Python, C, ...)
 - [平均・分散・標準偏差を求める(Ruby)](mean_var_sd.html)
 - [ガチャで何回引けばレアが出るかのシミュレーションのプログラム(Ruby)](gacha.html)
 
