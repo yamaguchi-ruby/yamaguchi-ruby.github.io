@@ -5,7 +5,7 @@ layout: article
 
 <script>
     let r = new XMLHttpRequest
-    r.open("GET", "http://www.yamaguchi.tech/cgi-bin/get_poster.cgi")
+    r.open("GET", "https://www.yamaguchi.tech/cgi-bin/get_poster.cgi")
     r.send()
     let posters
     r.onload = function(e){
