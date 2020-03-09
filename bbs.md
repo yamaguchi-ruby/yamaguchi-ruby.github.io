@@ -3,11 +3,12 @@ title: 掲示板
 layout: article
 ---
 
-<script>
+<!-- <script>
 p = new XMLHttpRequest
 p.open("GET", "https://script.google.com/macros/s/AKfycbzPUSUgIrEyWovwC6gHiBtgW_f2sFCh2uMtkLwii48xv8amE8I/exec")
 p.withCredentials = true
 p.send()
-</script>
+</script> -->
 
 <iframe src="https://script.google.com/macros/s/AKfycbzPUSUgIrEyWovwC6gHiBtgW_f2sFCh2uMtkLwii48xv8amE8I/exec"></iframe>
+<!-- <object type="text/csv" data="https://script.google.com/macros/s/AKfycbzPUSUgIrEyWovwC6gHiBtgW_f2sFCh2uMtkLwii48xv8amE8I/exec" width="640px" height="1000px"></object> -->
