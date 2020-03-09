@@ -3,12 +3,17 @@ title: 掲示板
 layout: article
 ---
 
-<!-- <script>
-p = new XMLHttpRequest
-p.open("GET", "https://script.google.com/macros/s/AKfycbzPUSUgIrEyWovwC6gHiBtgW_f2sFCh2uMtkLwii48xv8amE8I/exec")
-p.withCredentials = true
-p.send()
-</script> -->
-
-<iframe src="https://script.google.com/macros/s/AKfycbzPUSUgIrEyWovwC6gHiBtgW_f2sFCh2uMtkLwii48xv8amE8I/exec"></iframe>
-<!-- <object type="text/csv" data="https://script.google.com/macros/s/AKfycbzPUSUgIrEyWovwC6gHiBtgW_f2sFCh2uMtkLwii48xv8amE8I/exec" width="640px" height="1000px"></object> -->
+<script>
+    let r = new XMLHttpRequest
+    r.open("GET", "/cgi-bin/get_poster.cgi")
+    r.send()
+    let posters
+    r.onload = function(e){
+        let posters_csv = e.target.response
+        posters = posters_csv.split(/\n/)
+        posters = posters.filter(Boolean)
+        posters = posters.map(function(e){
+            return e.split(/\,\s?/)
+        })
+    }
+</script>
