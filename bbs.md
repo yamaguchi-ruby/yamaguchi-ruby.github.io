@@ -3,17 +3,48 @@ title: 掲示板
 layout: article
 ---
 
+<div id="poster_block"></div>
+<form action="https://www.yamaguchi.tech/cgi-bin/post_poster.cgi" method="post">
+    <span class="text">名前:</span><input type="text" name="name">
+    <textarea name="text"></textarea>
+    <input type="submit" value="投稿">
+</form>
+
+<link rel="stylesheet" href="bbs.css">
+
 <script>
-    let r = new XMLHttpRequest
-    r.open("GET", "https://www.yamaguchi.tech/cgi-bin/get_poster.cgi")
-    r.send()
-    let posters
-    r.onload = function(e){
-        let posters_csv = e.target.response
-        posters = posters_csv.split(/\n/)
-        posters = posters.filter(Boolean)
-        posters = posters.map(function(e){
-            return e.split(/\,\s?/)
-        })
+function htmlesc(str) {
+    return str.replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;')
+    .replace(/&lt;br&gt;/g, '<br>')
+}
+
+
+let r = new XMLHttpRequest
+r.open("GET", "https://www.yamaguchi.tech/cgi-bin/get_poster.cgi")
+r.send()
+let posters
+r.onload = function(e){
+    let posters_csv = e.target.response
+    posters = posters_csv.split(/\n/)
+    posters = posters.filter(Boolean)
+    posters = posters.map(function(e){
+        return e.split(/\,\s?/)
+    })
+    let str = ""
+    for(let i in posters){
+        str += `
+        <section>
+            <span class="bbs_id">${i}</span>
+            <span class="bbs_name">${posters[i][3]}</span>
+            <time>${posters[i][0]}</time>
+            <div class="poster">${htmlesc(posters[i][1])}</div>
+        </section>
+        `
     }
+    poster_block.innerHTML = str
+}
 </script>
