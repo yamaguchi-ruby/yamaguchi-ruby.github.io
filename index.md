@@ -9,6 +9,35 @@ list_title: "全ブログ一覧"
 # 掲示板
 [掲示板](bbs.html)
 
+<div id="server_status">掲示板サーバー確認中...</div>
+
+<script>
+let servs = new XMLHttpRequest
+servs.open("GET", "https://www.yamaguchi.tech/cgi-bin/status_poster.cgi")
+servs.send()
+servs.onload = function(e){
+    if(e.target.response == "OK"){
+        server_status.classList += "ok_server"
+        server_status.innerText = "掲示板サーバー接続可能"
+    }
+}
+</script>
+<style>
+#server_status {
+    padding: 16px;
+    background: #eee;
+    text-align: center;
+    border: solid 2px #E0E0E0;
+    border-radius: 8px;
+    font-weight: bold;
+}
+#server_status.ok_server{
+    background: #43A047;
+    border: solid 2px #388E3C;
+    color: #E8F5E9;
+}
+</style>
+
 # お知らせ
 
 ## 令和2年度新入部員募集案内
