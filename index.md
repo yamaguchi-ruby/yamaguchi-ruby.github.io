@@ -7,9 +7,10 @@ list_title: "全ブログ一覧"
 山口大学のプログラミングサークル Ruby / Python 研究会のホームページです。ようこそ。
 
 # 掲示板
-[掲示板](bbs.html)
 
 <div id="server_status">掲示板サーバー確認中...</div>
+
+<strong><a href="bbs.html" id="bbs_link">掲示板</a></strong>
 
 <script>
 let servs = new XMLHttpRequest
@@ -19,10 +20,14 @@ servs.onload = function(e){
     if(e.target.response == "OK"){
         server_status.classList += "ok_server"
         server_status.innerText = "掲示板サーバー接続可能"
+        bbs_link.style.visibility = "unset"
     }
 }
 </script>
 <style>
+#bbs_link{
+    visibility: hidden;
+}
 #server_status {
     padding: 16px;
     background: #eee;
@@ -30,6 +35,8 @@ servs.onload = function(e){
     border: solid 2px #E0E0E0;
     border-radius: 8px;
     font-weight: bold;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 #server_status.ok_server{
     background: #43A047;
