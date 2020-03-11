@@ -22,7 +22,6 @@ function htmlesc(str) {
     .replace(/&lt;br&gt;/g, '<br>')
 }
 
-
 let r = new XMLHttpRequest
 r.open("GET", "https://www.yamaguchi.tech/cgi-bin/get_poster.cgi")
 r.send()
@@ -36,14 +35,14 @@ r.onload = function(e){
     })
     let str = ""
     for(let i in posters){
+        let e = new Era(posters[i][0])
         str += `
         <section>
             <span class="bbs_id">${i}</span>
             <span class="bbs_name">${posters[i][3]}</span>
-            <time>${posters[i][0]}</time>
+            <time>${e.getWareki()}${e.getHours()}時${e.getMinutes()}分${e.getSeconds()}秒</time>
             <div class="poster">${htmlesc(posters[i][1])}</div>
-        </section>
-        `
+        </section>`
     }
     poster_block.innerHTML = str
 }
