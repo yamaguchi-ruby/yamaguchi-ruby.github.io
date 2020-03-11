@@ -36,6 +36,7 @@ r.onload = function(e){
     let str = ""
     for(let i in posters){
         let e = new Era(posters[i][0])
+        e.setHours(e.getHours() + 9)
         str += `
         <section>
             <span class="bbs_id">${i}</span>
