@@ -10,7 +10,11 @@ list_title: "全ブログ一覧"
 
 <div id="server_status">掲示板サーバー確認中...</div>
 
-<strong><a href="bbs.html" id="bbs_link">掲示板</a></strong>
+<strong>
+    <a href="bbs.html" id="bbs_link">
+        掲示板
+    </a>
+</strong>
 
 <script>
 let servs = new XMLHttpRequest

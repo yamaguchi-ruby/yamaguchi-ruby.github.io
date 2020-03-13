@@ -23,21 +23,19 @@ body
 
     header
         height: 80px
-        //background: $font-color
-        //color: $bg-gray
         line-height: 80px
         font-size: 26px
         user-select: none
         div#header
-            max-width: 1200px
+            max-width: 1024px
             margin: 0 auto
+            padding: 0 64px
             a
                 //color: $bg-gray
 
     footer
         text-align: center
         line-height: 80px
-        margin-top: 32px
         background: #eeeeee
 
 
@@ -45,8 +43,8 @@ body
         flex: 1
         margin: 0 auto
         font-size: 16px
-        max-width: 1200px
-        width: calc(100% - 64px)
+        max-width: 1024px
+        // width: calc(100% - 64px)
         padding: 64px
         background-color: $bg
         background: $bg+dd
@@ -138,20 +136,11 @@ body
 
 @media screen and (max-width:360px)
     body
-        article
-            padding: 16px
         header
             div#header
-                margin-left: 16px
-                
-@media screen and (max-width:1200px)
-    body
+                padding: 0 32px
         article
             padding: 32px
-        header
-            div#header
-                margin-left: 16px
+        
 
-// @font-face 
-//     font-family: HuiFontP109
-//     src: url("/assets/fonts/HuiFontP109.woff") format("woff")
+
