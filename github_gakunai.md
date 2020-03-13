@@ -12,3 +12,8 @@ git clone <リポジトリー> -c http.proxy="http://proxy.cc.yamaguchi-u.ac.jp:
 ```sh
 git -c http.proxy="http://proxy.cc.yamaguchi-u.ac.jp:8080" pull
 ```
+
+# git push
+```sh
+git -c http.proxy="http://proxy.cc.yamaguchi-u.ac.jp:8080" push
+```
