@@ -2,7 +2,7 @@
 ---
 
 $font-color: #212121
-$a-color: #4CAF50
+$a-color: #2196F3
 $bg-gray: #212121
 $bg: #fafafa
 
@@ -15,22 +15,47 @@ body
     font-family: Ubuntu, "Noto Sans JP", Arial, "libra sans", sans-serif
     background-image: url(/assets/images/rbpy.svg)
     background-size: 200px
+    background-attachment: fixed
 
     a
         color: $a-color
         text-decoration: none
 
     header
-        height: 80px
-        line-height: 80px
+        // line-height: 80px
         font-size: 26px
         user-select: none
+        background: #212121dd
         div#header
             max-width: 1024px
             margin: 0 auto
-            padding: 0 64px
+            padding: 32px 64px
             a
-                //color: $bg-gray
+                color: #fafafa
+        nav
+            display: block
+            width: 1024px
+            margin: 0 auto
+            ul
+                padding: 0
+                margin: 0
+                list-style: none
+                display: block
+                font-size: 0
+                li
+                    transition: .3s
+                    display: inline-block
+                    
+                    &:hover
+                        background: #424242
+                    a
+                        display: inline-block
+                        padding: 16px 32px
+                        color: #fafafa
+                        font-size: 18px
+                        width: 80px
+                        text-align: center
+
 
     footer
         text-align: center
@@ -137,7 +162,9 @@ body
     body
         header
             div#header
-                padding: 0 32px
+                padding: 16px 32px
+            nav
+                display: none
         article
             padding: 32px
         

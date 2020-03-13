@@ -4,6 +4,12 @@ title: 山口大学 Ruby / Python 研究会
 list_title: "全ブログ一覧"
 ---
 
+<style>
+body header nav ul li:nth-child(1) a{
+    border-bottom: 2px solid #2196F3;
+}
+</style>
+
 山口大学のプログラミングサークル Ruby / Python 研究会のホームページです。ようこそ。
 
 # 掲示板

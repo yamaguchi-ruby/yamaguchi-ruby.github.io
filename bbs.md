@@ -3,7 +3,11 @@ title: 掲示板
 layout: article
 ---
 
-
+<style>
+body header nav ul li:nth-child(2) a{
+    border-bottom: 2px solid #2196F3;
+}
+</style>
 
 <div id="poster_block"></div>
 <form action="https://www.yamaguchi.tech/cgi-bin/post_poster.cgi" method="post">
