@@ -12,7 +12,6 @@ body
     display: flex
     flex-flow: column
     min-height: 100vh
-    // font-family: HuiFontP109
     font-family: Ubuntu, "Noto Sans JP", Arial, "libra sans", sans-serif
     background-image: url(/assets/images/rbpy.svg)
     background-size: 200px
@@ -44,10 +43,11 @@ body
         margin: 0 auto
         font-size: 16px
         max-width: 1024px
-        // width: calc(100% - 64px)
         padding: 64px
         background-color: $bg
         background: $bg+dd
+        box-sizing: border-box
+        width: 100%
 
         code
             font-family: Ubuntu Mono
@@ -80,14 +80,13 @@ body
             margin-top: 0
 
 
-        h1.article_title
-            font-size: 40px
-            border: none
-            max-width: 1200px
-            margin-top: 0px
+        h1
+            &.article_title
+                font-size: 40px
+                border: none
+                margin-top: 0px
 
         section
-            max-width: 1200px
             line-height: 2
 
             img

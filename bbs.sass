@@ -21,12 +21,12 @@
 input[name="name"]
     display: inline-block
     border-radius: 16px
-    height: 30px
     margin: 0 0 8px 0
-    padding: 8px 0 8px 16px
+    padding: 8px 16px 8px 16px
     border: solid 2px #E0E0E0
     background: #EEEEEE
-    width: calc(100% - 80px)
+    width: 100%
+    box-sizing: border-box
 
 textarea
     display: block
@@ -34,20 +34,23 @@ textarea
     background: #eee
     border: solid 2px #e0e0e0
     padding: 16px
-    width: calc(100% - 32px)
+    width: 100%
+    box-sizing: border-box
+    
 
 input[type="submit"]
     display: block
     margin-top: 8px
     background: #eee
     border: solid 2px #e0e0e0
-    padding: 16px
+    padding: 8px
     border-radius: 16px
     font-weight: 600
     font-size: 1.2em
     cursor: pointer
-    width: 100%
     transition: .3s
+    width: 100%
+
     &:hover
         background: #e0e0e0
 

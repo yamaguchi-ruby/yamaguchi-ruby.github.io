@@ -3,9 +3,11 @@ title: 掲示板
 layout: article
 ---
 
+
+
 <div id="poster_block"></div>
 <form action="https://www.yamaguchi.tech/cgi-bin/post_poster.cgi" method="post">
-    <span class="text">名前:</span><input type="text" name="name">
+    <input placeholder="名前" type="text" name="name">
     <textarea name="text"></textarea>
     <input type="submit" value="投稿">
 </form>
