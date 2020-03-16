@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 山口大学 Ruby / Python 研究会
+title: ホーム
 list_title: "全ブログ一覧"
 ---
 
@@ -10,7 +10,7 @@ body header nav ul li:nth-child(1) a{
 }
 </style>
 
-山口大学のプログラミングサークル Ruby / Python 研究会のホームページです。ようこそ。
+山口大学のプログラミング研究会のホームページです。ようこそ。
 
 # 掲示板
 
