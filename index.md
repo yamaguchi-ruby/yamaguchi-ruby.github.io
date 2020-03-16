@@ -10,7 +10,7 @@ body header nav ul li:nth-child(1) a{
 }
 </style>
 
-山口大学のプログラミング研究会のホームページです。ようこそ。
+山口大学のプログラミング研究会💻のホームページです。ようこそ。
 
 # 掲示板
 
@@ -57,12 +57,12 @@ servs.onload = function(e){
 
 # お知らせ
 
-- [部員募集と入会方法🆕](join.html)
+- [部員募集と入会方法 🆕](join.html)
 
-# 新型コロナウイルスについての注意喚起
+# 新型コロナウイルス🦠についての注意喚起
 新型コロナウイルスが日本に上陸しています。
 
-日本での新型コロナウイルスの流行状況は[日本の新型コロナウイルス感染者](SARS-CoV-2.html)から見ることができます(古いブラウザは対応していません)。
+日本🇯🇵での新型コロナウイルスの流行状況は[日本の新型コロナウイルス感染者](SARS-CoV-2.html)から見ることができます(古いブラウザは対応していません)。
 
 感染しないように注意してください。
 
@@ -108,7 +108,7 @@ servs.onload = function(e){
 ## Windows
 - [WSLのインストール方法(Windows)](install_wsl/)
 
-## Ubuntu 
+## Linux 🐧
 - [Ruby のインストール方法(Ubuntu)](2019/11/18/085538.html)
 - [aptを学内で利用する方法(プロキシ設定)](2019/11/17/181758.html)
 - [gitを学内で利用する方法(プロキシ設定)](github_gakunai.html)
@@ -116,7 +116,7 @@ servs.onload = function(e){
 
 # 作ってみよう
 
-## Web系(HTML, CSS, JavaScript, ...)
+## Web系🌐 (HTML, CSS, JavaScript, ...)
 - [ウェブページを作ってみる (Ubuntu, Ruby, Jekyll)](create_webpage/)
 - [WEBrick で簡単にウェブサーバーを作る (Ruby)](webrick.html)
 - [JavaScript で文字列を書く (JavaScript)](jsmojiretsu.html)
@@ -133,7 +133,7 @@ servs.onload = function(e){
 - [平均・分散・標準偏差を調べる](statistics/)
 
 # お問い合わせ
-お問い合わせは、Twitterの[ダイレクトメッセージ](https://twitter.com/__ruby_python__)または下のリンクよりお願いします。
+お問い合わせは、Twitterの[ダイレクトメッセージ📩](https://twitter.com/__ruby_python__)または下のリンクよりお願いします。
 このリンクは`heroku`の無料枠を利用しているので、アクセスに時間がかかります。
 お急ぎの方はTwitterよりお願いします。
 
