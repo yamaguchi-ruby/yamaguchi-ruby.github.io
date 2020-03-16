@@ -1,5 +1,5 @@
 ---
-title: 入会方法
+title: 部員募集と入会方法
 layout: article
 ---
 
