@@ -59,7 +59,7 @@ servs.onload = function(e){
 
 - [部員募集と入会方法 🆕](join.html)
 
-# 新型コロナウイルス🦠についての注意喚起
+# 新型コロナウイルスについての注意喚起
 新型コロナウイルスが日本に上陸しています。
 
 日本🇯🇵での新型コロナウイルスの流行状況は[日本の新型コロナウイルス感染者](SARS-CoV-2.html)から見ることができます(古いブラウザは対応していません)。
@@ -103,16 +103,17 @@ servs.onload = function(e){
 
 -->
 
-# 設定に関する記事
+# 環境構築
 
 ## Windows
-- [WSLのインストール方法(Windows)](install_wsl/)
+- [WSL のインストール方法 (Windows)](install_wsl/)
+- [WSL2 のはじめかた (Windows)](install_wsl/wsl2.html)
 
 ## Linux 🐧
-- [Ruby のインストール方法(Ubuntu)](2019/11/18/085538.html)
-- [aptを学内で利用する方法(プロキシ設定)](2019/11/17/181758.html)
-- [gitを学内で利用する方法(プロキシ設定)](github_gakunai.html)
-- [Visual Studio Codeを学内で利用する(プロキシ設定)](code_gakunai.html)
+- [Ruby のインストール方法 (Ubuntu)](2019/11/18/085538.html)
+- [apt を学内で利用する方法 (プロキシ設定)](2019/11/17/181758.html)
+- [git を学内で利用する方法 (プロキシ設定)](github_gakunai.html)
+- [Visual Studio Codeを学内で利用する (プロキシ設定)](code_gakunai.html)
 
 # 作ってみよう
 
