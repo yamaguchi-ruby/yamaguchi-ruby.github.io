@@ -26,6 +26,7 @@ function htmlesc(str) {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;')
     .replace(/&lt;br&gt;/g, '<br>')
+    .replace(/&amp;#44;/g, '&#44;')
 }
 
 let r = new XMLHttpRequest
@@ -46,7 +47,7 @@ r.onload = function(e){
         str += `
         <section>
             <span class="bbs_id">${i}</span>
-            <span class="bbs_name">${posters[i][3]}</span>
+            <span class="bbs_name">${htmlesc(posters[i][3])}</span>
             <time>${e.getWareki()}${e.getHours()}時${e.getMinutes()}分${e.getSeconds()}秒</time>
             <div class="poster">${htmlesc(posters[i][1])}</div>
         </section>`
