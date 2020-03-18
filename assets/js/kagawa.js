@@ -6,7 +6,7 @@ function kagawa(){
     kagawa.onload = function(){
         let pref = JSON.parse(kagawa.response).pref
         // console.log(pref)
-        if(pref == "香川県"){
+        if(pref == "山口県"){
             let kagawa_warn = document.createElement('div')
             kagawa_warn.id = "kagawa_warn"
             document.getElementsByTagName("header")[0].parentNode.insertBefore(kagawa_warn, document.getElementsByTagName("header")[0].nextSibling)
