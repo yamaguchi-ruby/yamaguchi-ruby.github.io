@@ -4,7 +4,7 @@ git clone https://github.com/rbenv/rbenv ~/.rbenv
 mkdir -p ~/.rbenv/plugins
 git clone https://github.com/rbenv/ruby-build ~/.rbenv/plugins/ruby-build
 
-echo -e "\\nexport PATH=\"\$HOME/.rbenv/bin:\$PATH\"\\neval \"\$(rbenv init -)\"\\n" >> .bashrc
+echo -e "\\nexport PATH=\"\$HOME/.rbenv/bin:\$PATH\"\\neval \"\$(rbenv init -)\"\\n" >> ~/.bashrc
 source ~/.bashrc
 
 rbenv install 2.7.0
