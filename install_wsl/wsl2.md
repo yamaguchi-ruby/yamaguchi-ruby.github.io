@@ -28,7 +28,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 # WSL のイメージを WSL2 のイメージに変換する
 
 ```sh
-wsl --set-default-version 2
+wsl --set-version ubuntu 2
 ```
 
 # 参考
