@@ -3,13 +3,18 @@ title: ssh のインストールと設定
 layout: article
 ---
 
+- [Ubuntu](#ubuntu)
+- [WSL](#wsl-ubuntu)
+
 # Ubuntu
 
 ```sh
 sudo apt install -y openssh-server
 ```
 
-# Ubuntu on Windows
+Ubuntu の人はここまで。
+
+# WSL (Ubuntu)
 
 ## パスワード認証を有効にする
 ```sh
@@ -33,4 +38,4 @@ sudo dpkg-reconfigure openssh-server
 sudo service ssh restart
 ```
 
-Windows の初期設定では接続できないので、ファイアーウォールの設定を行う。
+Windows の初期設定では接続できないので、ファイアーウォールの設定(受信, TCP, 22)を行う。
