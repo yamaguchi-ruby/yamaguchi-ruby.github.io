@@ -19,7 +19,7 @@ Ubuntu の人はここまで。
 ## パスワード認証を有効にする
 ```sh
 # 設定ファイルの編集
-vi /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config
 ```
 
 ↓以下のように`PasswordAuthentication`を書き換える。
