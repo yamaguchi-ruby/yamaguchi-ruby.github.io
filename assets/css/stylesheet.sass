@@ -19,7 +19,7 @@ body
     display: flex
     flex-flow: column
     min-height: 100vh
-    font-family: Ubuntu, "Noto Sans JP", Arial, "libra sans", sans-serif
+    font-family: Ubuntu, Kosugi Maru, Noto Sans JP, Noto Serif JP, Arial, "libra sans", sans-serif
     background-image: url(/assets/images/rbpy.svg)
     background-size: 200px
     background-attachment: fixed
@@ -170,6 +170,68 @@ img.emoji
     width: 1em
     margin: 0 .05em 0 .1em
     vertical-align: -0.1em
+
+body.konami
+    font-family: Noto Serif JP, Ubuntu, Kosugi Maru, Noto Sans JP, Arial, "libra sans", sans-serif
+
+    article
+        counter-reset: h1
+
+        p
+            text-indent: 1em
+
+        .article_title
+            text-align: center
+            font-size: 24px
+            font-family: Noto Serif JP
+            &::before
+                content: ""
+                counter-set: h1
+
+        h1, h2, h3, h4, h5, h6
+            font-family: Noto Sans JP, Noto Serif JP, Arial, "libra sans", sans-serif
+            font-weight: 500
+            &::before
+                font-family: Noto Serif JP
+
+        h1
+            border-bottom: unset
+            counter-reset: h2
+            &::before
+                counter-increment: h1
+                content: counter(h1) "　"
+
+        h2
+            border-bottom: unset
+            counter-reset: h3
+            &::before
+                counter-increment: h2
+                content: counter(h1) "." counter(h2) "　"
+
+        h3
+            border-bottom: unset
+            counter-reset: h4
+            &::before
+                counter-increment: h3
+                content: counter(h1) "." counter(h2) "." counter(h3) "　"
+
+        h4
+            counter-reset: h5
+            &::before
+                counter-increment: h4
+                content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "　"
+
+        h5
+            counter-reset: h6
+            &::before
+                counter-increment: h5
+                content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "　"
+
+        h6
+            &::before
+                counter-increment: h6
+                content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) "　"
+
 
 @media screen and (max-width:360px)
     body
