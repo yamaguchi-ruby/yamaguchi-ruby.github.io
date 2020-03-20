@@ -8,7 +8,7 @@ git clone https://github.com/rbenv/ruby-build ~/.rbenv/plugins/ruby-build
 
 echo -e "\\nexport PATH=\"\$HOME/.rbenv/bin:\$PATH\"\\neval \"\$(rbenv init -)\"\\n" >> ~/.bashrc
 export PATH="$HOME/.rbenv/bin:$PATH"
-rbenv init -
+eval "$(rbenv init -)"
 
 rbenv install 2.7.0
 
