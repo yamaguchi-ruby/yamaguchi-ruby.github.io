@@ -1,3 +1,5 @@
+sudo apt update
+
 sudo apt install git gcc make ruby-dev libssl-dev zlib1g-dev -y
 
 git clone https://github.com/rbenv/rbenv ~/.rbenv
