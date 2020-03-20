@@ -17,7 +17,7 @@ title: 日本の新型コロナウイルス感染者
 <div id="barChart"></div>
 
 ## 注意
-- 厚生労働省の発表をもとに第三者がまとめた[データー](https://github.com/kaz-ogiwara/covid19/blob/master/csv/data.csv)を利用しています。
+- 厚生労働省の発表をもとに第三者がまとめた[データー](https://github.com/kaz-ogiwara/covid19/blob/master/data/individuals.csv)を利用しています。
 - 古いブラウザでは動作しないことを確認しています。(Firefox推奨)
 
 <link rel="stylesheet" href="index.css">
