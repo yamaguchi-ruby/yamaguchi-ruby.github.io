@@ -85,4 +85,4 @@ function titleAnimation(){
     },80)
 }
 
-titleAnimation()
+// titleAnimation()

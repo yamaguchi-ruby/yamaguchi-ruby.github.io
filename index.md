@@ -1,8 +1,10 @@
 ---
 layout: article
 title: ホーム
-list_title: "全ブログ一覧"
 ---
+
+<link rel="stylesheet" href="assets/css/header_anime.css">
+<script src="assets/js/header_anime.js"></script>
 
 <style>
 body header nav ul li:nth-child(1) a{
