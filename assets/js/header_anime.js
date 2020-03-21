@@ -37,8 +37,6 @@ p\u00a0circle\n\
         e.innerText += ary[i]
         i++
     },30)
-
-
     // console.log(ary)
 }
 
