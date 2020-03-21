@@ -243,12 +243,8 @@ body.konami
             height: 120%
             background: #21212133
             overflow: hidden
-            // top: 0
-            bottom: auto
             #spmenu1
                 margin: auto 16px
-                background: #fafafa
-                border-radius: 16px
                 box-shadow: 0px 0px 24px -16px #212121
                 position: absolute
                 margin: auto
@@ -267,8 +263,15 @@ body.konami
                     li
                         text-align: center
                         border-bottom: solid 1px #E0E0E0
+                        background: #fafafa
+                        &:active
+                            background: #eeeeee
                         &#spmenuexit
                             border-bottom: unset
+                        &:first-child
+                            border-radius: 8px 8px 0 0
+                        &:last-child
+                            border-radius: 0 0 8px 8px
                         a
                             display: block
                             font-size: 24px
