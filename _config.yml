@@ -11,3 +11,5 @@ exclude:
 
 timezone: Asia/Tokyo
 
+plugins:
+    - jekyll-sitemap
