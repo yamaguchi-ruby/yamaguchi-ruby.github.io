@@ -60,7 +60,7 @@ servs.onload = function(e){
 # お知らせ
 
 - [部員募集と入会方法 🆕](join.html)
-- [新型コロナウイルスについての注意喚起](sars2.html)
+- [山口県の新型コロナウイルス(SARS-CoV-2)感染状況](sars2-yamaguchi/)
 
 # 環境構築
 
