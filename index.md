@@ -3,8 +3,10 @@ layout: article
 title: ホーム
 ---
 
-<link rel="stylesheet" href="assets/css/header_anime.css">
-<script src="assets/js/header_anime.js"></script>
+{% comment %}
+<!-- <link rel="stylesheet" href="assets/css/header_anime.css">
+<script src="assets/js/header_anime.js"></script> -->
+{% endcomment %}
 
 <style>
 body header nav ul li:nth-child(1) a{
@@ -14,7 +16,8 @@ body header nav ul li:nth-child(1) a{
 
 山口大学のプログラミング研究会💻のホームページです。ようこそ。
 
-# 掲示板
+{% comment %}
+<!-- # 掲示板
 
 <div id="server_status">掲示板サーバー確認中...</div>
 
@@ -22,9 +25,9 @@ body header nav ul li:nth-child(1) a{
     <a href="bbs.html" id="bbs_link">
         掲示板
     </a>
-</strong>
+</strong> -->
 
-<script>
+<!-- <script>
 let servs = new XMLHttpRequest
 servs.open("GET", "https://www.yamaguchi.tech/cgi-bin/status_poster.cgi")
 servs.send()
@@ -35,8 +38,8 @@ servs.onload = function(e){
         bbs_link.style.visibility = "unset"
     }
 }
-</script>
-<style>
+</script> -->
+<!-- <style>
 #bbs_link{
     visibility: hidden;
 }
@@ -55,7 +58,8 @@ servs.onload = function(e){
     border: solid 2px #388E3C;
     color: #E8F5E9;
 }
-</style>
+</style> -->
+{% endcomment %}
 
 # お知らせ
 
@@ -90,7 +94,8 @@ servs.onload = function(e){
 - [平均・分散・標準偏差を求める (Ruby)](mean_var_sd.html)
 - [ガチャで何回引けばレアが出るかのシミュレーションのプログラム (Ruby)](gacha.html)
 
-# ツール
+{% comment %}
+<!-- # ツール
 - [平均・分散・標準偏差を調べる](statistics/)
 
 # お問い合わせ
@@ -98,6 +103,7 @@ servs.onload = function(e){
 このリンクは`heroku`の無料枠を利用しているので、アクセスに時間がかかります。
 お急ぎの方はTwitterよりお願いします。
 
-- [お問い合わせ](https://sekiei.herokuapp.com/ruby_python_programming_circle)
+- [お問い合わせ](https://sekiei.herokuapp.com/ruby_python_programming_circle) -->
 
-<script src="assets/js/title_anime.js"></script>
+<!-- <script src="assets/js/title_anime.js"></script> -->
+{% endcomment %}
