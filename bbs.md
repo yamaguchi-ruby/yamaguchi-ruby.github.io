@@ -10,7 +10,7 @@ body header nav ul li:nth-child(2) a{
 </style>
 
 <div id="poster_block"></div>
-<form action="https://www.yamaguchi.tech/cgi-bin/post_poster.cgi" method="post">
+<form action="https://www.yamaguchi.tech/cgi-bin/post_poster.cgi" method="get">
     <input placeholder="名前" type="text" name="name">
     <textarea name="text"></textarea>
     <input type="submit" value="投稿">
