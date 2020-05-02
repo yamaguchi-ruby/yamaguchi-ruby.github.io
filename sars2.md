@@ -1,15 +1,36 @@
 ---
 layout: article
-title: 新型コロナウイルスについての注意喚起
+title: 山口県の新型コロナウイルス情報
 ---
 
-# 新型コロナウイルスについての注意喚起
-新型コロナウイルスが日本に上陸しています。
+<div id="sum"></div>
+<div id="map"></div>
+<div id="list"></div>
 
-日本🇯🇵での新型コロナウイルスの流行状況は[日本の新型コロナウイルス感染者](SARS-CoV-2.html)から見ることができます(古いブラウザは対応していません)。
+<!-- <script src="https://himeyama.github.io/KeisanJS/era-1.1.0.js"></script> -->
+<script>covtablef = true</script>
+<script src="https://yamaguchi-ruby.github.io/sars2-yamaguchi/table.js"></script>
 
-山口県内はこちら(外部サイト)
-: 
-- [山口県内の最新感染動向 \| 新型コロナウイルス感染症対策サイト](https://yamaguchi.stopcovid19.jp/){:target="_blank"}
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Ubuntu:wght@700&display=swap" rel="stylesheet"> 
 
-感染しないように注意してください。
+<style>
+#sum span {
+    color: #f44336;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#sum span.number{
+    font-size: 64px;
+}
+#city_info{
+    background-color: #212121cc;
+    position: fixed;
+    border-radius: 8px;
+    color: #fafafa;
+    padding: 8px;
+}
+</style>
+
+## 参考
+- [新型コロナウイルス感染症の山口県内での発生について](https://www.pref.yamaguchi.lg.jp/cms/a10000/korona2020/202004240002.html)
+- [山口県内の最新感染動向](https://yamaguchi.stopcovid19.jp/)
