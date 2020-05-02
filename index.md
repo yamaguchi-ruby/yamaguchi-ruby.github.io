@@ -36,4 +36,19 @@ title: ホーム
             </div>
         </div>
     </div>
+
+    <div class="sub-index-description">
+        <div class="index-description">
+            <div class="left-description">
+                <h1>プログラミングをする</h1>
+                <p>
+                    目標が決まったら、
+                    最適な言語で自分にあったプログラミングをしましょう。
+                </p>
+            </div>
+            <div class="right-description">
+                <img src="/assets/images/des002.svg">
+            </div>
+        </div>
+    </div>
 </div>
