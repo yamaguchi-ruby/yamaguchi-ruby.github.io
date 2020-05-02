@@ -59,6 +59,8 @@ body
                 li
                     transition: .3s
                     display: inline-block
+                    &:nav-swc
+                        display: none
                     &:nth-child(1)
                         a
                             background: #f44336
@@ -263,19 +265,36 @@ body.konami
                 font-size: unset
                 cursor: pointer
                 transition: .4s
+                &.clicked
+                    height: 0
+                    font-size: 0
+                    padding: 0
             div#header
                 font-size: 14px
                 a
-            nav
-                display: none
-                padding: 0
-                ul
-                    li
+            
+            &#nav-header
+                &.clicked
+                    nav
                         display: block
-                        a
-                            padding: 18px 0
-                            width: 100%
-                            &:hover
+                        ul
+                            li
+                                &.nav-swc
+                                    display: block
+                                a
+                                    padding: 18px 0
+                                    font-size: 16px
+                nav
+                    display: none
+                    padding: 0
+                    ul
+                        li
+                            display: block
+                            a
+                                padding: 0
+                                font-size: 0
+                                width: 100%
+                                &:hover
 
             #navBtn
                 background-image: url("/assets/icons/🍔.svg")

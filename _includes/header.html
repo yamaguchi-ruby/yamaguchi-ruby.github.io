@@ -9,11 +9,12 @@
 <header id="nav-sw" onclick="navsw()">
     <script>
 function navsw(){
-    let e = document.getElementById("nav-sw")
-    e.style.height = "0px"
-    e.style.padding = "0px"
-    e = document.getElementById("nav-header")
-    e.getElementsByTagName("nav")[0].style.display = "block"
+    document.getElementById("nav-sw").classList.add("clicked")
+    document.getElementById("nav-header").classList.add("clicked")
+}
+function navswc(){
+    document.getElementById("nav-sw").classList.remove("clicked")
+    document.getElementById("nav-header").classList.remove("clicked")
 }
     </script>
     メニューを開く
@@ -28,6 +29,7 @@ function navsw(){
             <li><a href="https://github.com/yamaguchi-ruby/">GitHub</a></li>
             <li><a href="//twitter.com/__ruby_python__">Twitter</a></li>
             <li><a href="/sars2-yamaguchi">新型コロナ</a></li>
+            <li><a href="#" onclick="navswc()" class="nav-swc">メニューを畳む</a></li>
         </ul>
     </nav>
 </header>
