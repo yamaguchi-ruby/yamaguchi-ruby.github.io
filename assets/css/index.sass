@@ -13,7 +13,6 @@ body
                             background: #f44336
                             &:hover
                                 background: #b71c1c
-                        // border-bottom: 2px solid #2196F3
                     a
                         &:hover
         &#nav-header
@@ -57,14 +56,31 @@ body
         background: #E0E0E0
         
         section
-            .index-description
-                p
-                    font-size: 24px
-                    text-align: center
-                    line-height: 40px
-                color: #424242
-                max-width: 1024px
-                margin: 32px auto
-                padding: 0 24px
+            .root-index-description
+                .sub-index-description
+                    padding: 32px 0
+                    background: #E0E0E0
+                    &:nth-child(2)
+                        background: #EEEEEE
+                    .index-description
+                        p
+                            font-size: 20px
+                            line-height: 36px
+                            &.center-d
+                                font-size: 24px
+                                text-align: center
+                                line-height: 40px
+                        color: #424242
+                        max-width: 1024px
+                        margin: 0 auto
+                        padding: 0 24px
+                        .left-description
+                            vertical-align: top
+                            display: inline-block
+                            width: 48%
+                        .right-description
+                            display: inline-block
+                            width: 48%
+
     footer
         color: #424242
