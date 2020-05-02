@@ -6,12 +6,25 @@
     </div>
 </header>    
 
+<header id="nav-sw" onclick="navsw()">
+    <script>
+function navsw(){
+    let e = document.getElementById("nav-sw")
+    e.style.height = "0px"
+    e.style.padding = "0px"
+    e = document.getElementById("nav-header")
+    e.getElementsByTagName("nav")[0].style.display = "block"
+}
+    </script>
+    メニューを開く
+</header>
+
 <header id="nav-header">
     <nav>
         <ul>
             <li><a href="/">プログラミング研究会</a></li>
-            <li><a href="news">お知らせ</a></li>
-            <li><a href="blog">ブログ</a></li>
+            <li><a href="/news">お知らせ</a></li>
+            <li><a href="/blog">ブログ</a></li>
             <li><a href="https://github.com/yamaguchi-ruby/">GitHub</a></li>
             <li><a href="//twitter.com/__ruby_python__">Twitter</a></li>
             <li><a href="/sars2-yamaguchi">新型コロナ</a></li>

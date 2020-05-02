@@ -32,6 +32,8 @@ body
         font-size: 1.6em
         user-select: none
         background: #212121
+        &#nav-sw
+            display: none
         #navBtn
             display: none
         div#header
@@ -246,12 +248,35 @@ body.konami
                 content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) "　"
 
 
-@media screen and (max-width:360px)
+@media screen and (max-width:375px)
     body
         font-size: 14.5px
-        font-family: Noto Sans CJK JP
 
         header
+            &#nav-sw
+                display: block
+                height: 24px
+                background: #424242
+                padding: 16px
+                text-align: center
+                color: #fafafa
+                font-size: unset
+                cursor: pointer
+                transition: .4s
+            div#header
+                font-size: 14px
+                a
+            nav
+                display: none
+                padding: 0
+                ul
+                    li
+                        display: block
+                        a
+                            padding: 18px 0
+                            width: 100%
+                            &:hover
+
             #navBtn
                 background-image: url("/assets/icons/🍔.svg")
                 height: 64px
@@ -261,18 +286,13 @@ body.konami
                 top: 0px
                 right: 0px
                 background-size: 100%
-            div#header
-                // padding: 16px 32px
-                // height: 32px
-                // line-height: 32px
-            nav
-                display: none
         article
             padding: 16px
             h1
                 &.article_title
-                    font-size: 1.45em
+                    font-size: 32px
             section
+                font-size: 18px
                 p
                     line-height: 20px
                 h1
