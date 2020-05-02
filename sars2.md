@@ -5,7 +5,11 @@ title: 山口県の新型コロナウイルス情報
 
 <div id="sum"></div>
 <div id="map"></div>
-<div id="list"></div>
+
+<details>
+    <summary>詳細</summary>
+    <div id="list"></div>
+</details>
 
 <!-- <script src="https://himeyama.github.io/KeisanJS/era-1.1.0.js"></script> -->
 <script>covtablef = true</script>
@@ -28,6 +32,11 @@ title: 山口県の新型コロナウイルス情報
     border-radius: 8px;
     color: #fafafa;
     padding: 8px;
+}
+body article table {
+    table-layout: fixed;
+    word-break: break-all;
+    word-wrap: break-word;
 }
 </style>
 
