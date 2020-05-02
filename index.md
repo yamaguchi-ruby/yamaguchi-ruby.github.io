@@ -11,6 +11,11 @@ title: ホーム
 <div id="index-main-contents">
 </div>
 
+<style>
+body header nav ul li:nth-child(1) a{
+    border-bottom: 2px solid #f44336;
+}
+</style>
 
 <div class="root-index-description">
     <div class="sub-index-description">

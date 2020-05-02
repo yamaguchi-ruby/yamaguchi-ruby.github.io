@@ -3,6 +3,12 @@ layout: article
 title: 山口県の新型コロナウイルス情報
 ---
 
+<style>
+body header nav ul li:nth-child(7) a{
+    border-bottom: 2px solid #f44336;
+}
+</style>
+
 <div id="sum"></div>
 <div id="map"></div>
 
