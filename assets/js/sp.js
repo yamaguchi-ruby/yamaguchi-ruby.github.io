@@ -1,6 +1,8 @@
 function sp(){
-    navBtn.onclick = function(){
-        spmenu()
+    if(typeof(navBtn) != "undefined"){
+        navBtn.onclick = function(){
+            spmenu()
+        }
     }
 }
 

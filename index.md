@@ -9,14 +9,8 @@ title: ホーム
 {% endcomment %}
 
 <div id="index-main-contents">
-
 </div>
 
-<style>
-body header nav ul li:nth-child(1) a{
-    border-bottom: 2px solid #2196F3;
-}
-</style>
 
 <div class="index-description">
     <p>
