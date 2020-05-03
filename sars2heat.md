@@ -18,10 +18,10 @@ svg path{
     transition: .3s;
 }
 #date{
-    font-size: 32px;
+    font-size: 24px;
 }
 #num{
-    font-size: 48px;
+    font-size: 32px;
     margin-left: 24px;
 }
 </style>
