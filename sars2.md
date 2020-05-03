@@ -46,6 +46,9 @@ body article table {
 }
 </style>
 
+## 関連
+- [新型コロナウイルスの全国ヒートマップ](/sars2heat)
+
 ## 参考
 - [新型コロナウイルス感染症の山口県内での発生について](https://www.pref.yamaguchi.lg.jp/cms/a10000/korona2020/202004240002.html)
 - [山口県内の最新感染動向](https://yamaguchi.stopcovid19.jp/)
