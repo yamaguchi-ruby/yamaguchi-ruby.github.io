@@ -50,3 +50,6 @@ body header nav ul li:nth-child(3) a{
 - [Gem と Gemfile](gem.html)
 - [平均・分散・標準偏差を求める (Ruby)](mean_var_sd.html)
 - [ガチャで何回引けばレアが出るかのシミュレーションのプログラム (Ruby)](gacha.html)
+
+## JavaScript
+- [数独を解く](/sudoku)
