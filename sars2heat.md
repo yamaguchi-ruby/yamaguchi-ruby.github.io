@@ -24,6 +24,14 @@ svg path{
     font-size: 32px;
     margin-left: 24px;
 }
+
+body #city_info{
+    background-color: #212121cc;
+    position: fixed;
+    border-radius: 8px;
+    color: #fafafa;
+    padding: 8px;
+}
 </style>
 
 <script>
