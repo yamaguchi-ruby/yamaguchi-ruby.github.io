@@ -44,6 +44,10 @@ body article table {
     word-break: break-all;
     word-wrap: break-word;
 }
+#list{
+    font-size: 12px;
+    text-align: center;
+}
 </style>
 
 ## 関連
