@@ -102,3 +102,15 @@ body
                             .right-description
                                 width: 100%
                                 display: block
+
+@media (prefers-color-scheme: dark) 
+    body
+        article
+            section
+                .root-index-description
+                    .sub-index-description
+                        background: #212121
+                        &:nth-child(2)
+                            background: #424242
+                        .index-description
+                            color: #fafafa
