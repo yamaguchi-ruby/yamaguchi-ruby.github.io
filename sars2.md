@@ -30,6 +30,7 @@ body header nav ul li:nth-child(7) a{
 }
 #sum span.number{
     font-size: 64px;
+    -webkit-text-stroke: 2px #e53935;
 }
 #city_info{
     background-color: #212121cc;
