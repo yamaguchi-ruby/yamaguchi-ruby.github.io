@@ -20,6 +20,7 @@ body header nav ul li:nth-child(7) a{
 <!-- <script src="https://himeyama.github.io/KeisanJS/era-1.1.0.js"></script> -->
 <script>covtablef = true</script>
 <script src="https://yamaguchi-ruby.github.io/sars2-yamaguchi/table.js"></script>
+<script src="https://yamaguchi-ruby.github.io/sars2-yamaguchi/active.covid19.js"></script>
 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Ubuntu:wght@700&display=swap" rel="stylesheet"> 
 
