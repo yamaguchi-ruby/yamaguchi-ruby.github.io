@@ -12,6 +12,7 @@ body header nav ul li:nth-child(3) a{
 # 環境構築
 
 ## Windows
+- [winget を使ってアプリをインストール](winget)
 - [WSL のインストール方法 (Windows)](install_wsl/)
 - [WSL2 のはじめかた (Windows)](install_wsl/wsl2.html)
 
@@ -47,9 +48,9 @@ body header nav ul li:nth-child(3) a{
 - [カレンダーを作る (JavaScript)](calendar.html)
 
 ## プログラム(Ruby, Python, C, ...)
-- [Gem と Gemfile](gem.html)
-- [平均・分散・標準偏差を求める (Ruby)](mean_var_sd.html)
-- [ガチャで何回引けばレアが出るかのシミュレーションのプログラム (Ruby)](gacha.html)
+- [Gem と Gemfile](gem)
+- [平均・分散・標準偏差を求める (Ruby)](mean_var_sd)
+- [ガチャで何回引けばレアが出るかのシミュレーションのプログラム (Ruby)](gacha)
 
 ## JavaScript
-- [数独を解く](/sudoku)
+- [数独を解く](sudoku)
