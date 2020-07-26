@@ -13,7 +13,7 @@ layout: article
 ## 1. サークル関係者とコンタクトを取る
 直接会うか[Twitterのダイレクトメッセージ](https://twitter.com/__ruby_python__)かでメールアドレスを送信する。
 
-<button><a href="twitter://messages?id=932132076714737665-993601546712563712"></a></button>
+<a href="twitter://messages?id=932132076714737665-993601546712563712"><button>twitter アプリで開く</button></a>
 
 ## 2. Slack に招待
 サークルの代表者が [Slack](slack:yamaguchi-u) に招待するので、自分の名前・パスワード等を登録する。
