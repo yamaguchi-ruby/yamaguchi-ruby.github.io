@@ -49,6 +49,9 @@ body article table {
     font-size: 12px;
     text-align: center;
 }
+#list ul{
+    padding: 0;
+}
 </style>
 
 <!-- ## 関連 -->
