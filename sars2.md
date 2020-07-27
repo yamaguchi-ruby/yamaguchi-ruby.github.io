@@ -20,7 +20,7 @@ body header nav ul li:nth-child(7) a{
 <script>covtablef = true</script>
 <script src="https://yamaguchi-ruby.github.io/sars2-yamaguchi/table.js"></script>
 <script src="https://yamaguchi-ruby.github.io/sars2-yamaguchi/active.covid19.js"></script>
-
+<link rel="stylesheet" href="/sars2-yamaguchi/table.css">
 
 <style>
 #sum span {
@@ -50,8 +50,8 @@ body article table {
 }
 </style>
 
-## 関連
-- [新型コロナウイルスの全国ヒートマップ](/sars2heat)
+<!-- ## 関連 -->
+<!-- - [新型コロナウイルスの全国ヒートマップ](/sars2heat) -->
 
 ## 参考
 - [新型コロナウイルス感染症の山口県内での発生について](https://www.pref.yamaguchi.lg.jp/cms/a10000/korona2020/202004240002.html)
