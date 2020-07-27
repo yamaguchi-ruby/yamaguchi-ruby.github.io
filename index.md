@@ -13,7 +13,7 @@ title: ホーム
 
 <style>
 body header nav ul li:nth-child(1) a{
-    border-bottom: 2px solid #f44336;
+    border-bottom: 2px solid #E8F5E9;
 }
 </style>
 

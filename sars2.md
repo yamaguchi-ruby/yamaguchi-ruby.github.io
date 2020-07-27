@@ -52,6 +52,9 @@ body article table {
 #list ul{
     padding: 0;
 }
+body header nav ul li:nth-child(6) a{
+    border-bottom: 2px solid #E3F2FD;
+}
 </style>
 
 <!-- ## 関連 -->
