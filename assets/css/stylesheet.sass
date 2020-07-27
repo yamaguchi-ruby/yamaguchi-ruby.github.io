@@ -256,6 +256,10 @@ body.konami
         font-size: 14.5px
 
         header
+            .menu
+                &::before
+                    font: normal normal normal 14px/1 FontAwesome
+                    
             &#nav-sw
                 display: block
                 height: 24px
@@ -265,7 +269,6 @@ body.konami
                 color: #fafafa
                 font-size: unset
                 cursor: pointer
-                transition: .4s
                 &.clicked
                     height: 0
                     font-size: 0
@@ -277,6 +280,7 @@ body.konami
             &#nav-header
                 &.clicked
                     nav
+                        transition: .4s
                         display: block
                         ul
                             li
