@@ -5,7 +5,7 @@ title: お知らせ
 
 <style>
 body header nav ul li:nth-child(2) a{
-    border-bottom: 2px solid #f44336;
+    border-bottom: 2px solid #E3F2FD;
 }
 </style>
 

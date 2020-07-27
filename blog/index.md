@@ -7,6 +7,12 @@ layout: article
 
 <link rel="stylesheet" href="blog.css">
 
+<style>
+body header nav ul li:nth-child(3) a{
+    border-bottom: 2px solid #E3F2FD;
+}
+</style>
+
 <ul class="list_b">
     <li>
         <div class="l_block">
