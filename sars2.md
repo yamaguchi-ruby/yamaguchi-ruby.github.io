@@ -21,6 +21,7 @@ body header nav ul li:nth-child(7) a{
 <script src="https://yamaguchi-ruby.github.io/sars2-yamaguchi/table.js"></script>
 <script src="https://yamaguchi-ruby.github.io/sars2-yamaguchi/active.covid19.js"></script>
 <link rel="stylesheet" href="/sars2-yamaguchi/table.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet"> 
 
 <style>
 #sum span {
