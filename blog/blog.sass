@@ -6,10 +6,10 @@
     li
         list-style: none
         .l_block
-            background: #121212
+            background: #fafafa
             padding: 16px
             border-radius: 6px
-            box-shadow: 0px 0px 8px -4px #fafafa
+            box-shadow: 0px 0px 8px -4px #121212
             .lb_left
                 .lbl_title
                     font-size: 1.2em
@@ -19,4 +19,15 @@
                     color: #9E9E9E
                     line-height: 1.5em
                     font-size: 0.95em
+            .lb_image
+
+@media (prefers-color-scheme: dark) 
+    .list_b
+    li
+        .l_block
+            background: #121212
+            box-shadow: 0px 0px 8px -4px #fafafa
+            .lb_left
+                .lbl_title
+                .lbl_desc
             .lb_image
