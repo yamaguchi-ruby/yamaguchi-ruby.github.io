@@ -25,13 +25,13 @@ body header nav ul li:nth-child(7) a{
 
 <style>
 #sum span {
-    color: #f44336;
+    color: var(--theme_color);
     font-size: 40px;
     font-weight: bolder;
 }
 #sum span.number{
     font-size: 64px;
-    -webkit-text-stroke: 2px #e53935;
+    -webkit-text-stroke: 2px var(--theme_color2);
 }
 #city_info{
     background-color: #212121cc;
@@ -51,9 +51,6 @@ body article table {
 }
 #list ul{
     padding: 0;
-}
-body header nav ul li:nth-child(6) a{
-    border-bottom: 2px solid #E3F2FD;
 }
 </style>
 
