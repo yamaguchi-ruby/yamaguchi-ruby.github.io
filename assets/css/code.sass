@@ -1,0 +1,87 @@
+---
+---
+
+code
+    font-family: Consolas, "Courier New", monospace !important
+    color: #d4d4d4
+
+pre.highlight
+    background-color: #242424
+    display: table
+    width: 100%
+    table-layout: fixed
+    word-wrap: break-word
+    word-break: break-all
+
+    .icon
+        display: table-cell
+        background-color: #333333
+        font-family: Segoe MDL2 Assets
+        color: #858585
+        width: 57px
+        font-size: 32px
+        text-align: center
+        user-select: none
+        div
+            width: 57px
+            height: 57px
+            line-height: 57px
+        .copy
+            cursor: pointer
+            &:hover
+                color: white
+
+    code
+        display: table-cell
+        vertical-align: top
+        white-space: break-spaces
+        &::selection
+            background-color: #264f78
+        code
+            display: unset
+            counter-increment: linenumber
+            span
+                &::selection
+                    background-color: #264f78
+                &.nt, &.kt
+                    color: #569cd6
+                &.cp, &.k
+                    color: #c586c0
+                &.na, &.nb
+                    color: #9cdcfe
+                &.s, &.s2
+                    color: #ce9178
+                &.nf, &.n
+                    color: #dcdcaa
+                &.mi
+                    color: #b5cea8
+            &:before
+                content: counter(linenumber)
+                width: 42px
+                display: inline-block
+                text-align: right
+                margin-right: 26px
+                color: #858585
+
+.cp_modal_window
+    height: 100%
+    width: 100%
+    position: fixed
+    top: 0
+    left: 0
+    background-color: #fff8
+    .main
+        height: 150px
+        width: 300px
+        position: fixed
+        top: calc(50% - 75px)
+        left: calc(50% - 150px)
+        box-shadow: 0 0 8px 4px #1a1a1a44
+        border-radius: 4px
+        background-color: white
+        .message
+            margin: 22px
+            font-size: 18px
+        .button
+            text-align: center
+            margin-top: 56px

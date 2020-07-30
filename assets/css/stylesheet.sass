@@ -19,6 +19,25 @@ $bg: #ffffff
     color: #fafafa
     padding: 64px
 
+button, input[type="button"], input[type="submit"]
+    background-color: var(--color)
+    border: none
+    color: white
+    height: 32px
+    padding: 0 58px
+    border-radius: 3px
+    font-size: 12px
+    &:hover
+        background-color: var(--light)
+
+input[type="text"], input
+    padding: 4px 8px
+    font-size: 14px
+    border-radius: 3px
+    border: solid 2px #37474f
+    &:focus
+        border: solid 2px var(--color)
+
 body
     margin: 0
     color: $font-color
@@ -33,7 +52,7 @@ body
     animation: bganim 8s infinite linear
 
     a
-        color: var(--theme_color)
+        color: var(--color)
         text-decoration: none
 
     header
@@ -50,7 +69,7 @@ body
             padding: 10.5px 24px
             font-size: 0.5em
             a
-                color: var(--theme_color)
+                color: var(--color)
         &#nav-header
             z-index: 0
             nav
@@ -77,14 +96,14 @@ body
                             display: inline-block
                             line-height: 1rem
                             padding: 18px 24px
-                            color: var(--theme_color)
+                            color: var(--color)
                             font-size: 1rem
                             text-align: center
                             min-width: 80px
                             &:hover
-                                background: var(--theme_color)
+                                background: var(--color)
                                 color: #fafafa
-                                background-image: linear-gradient(var(--theme_color) 0%, var(--theme_color) 50%, var(--theme_color2) 51%, var(--theme_color2) 100%)
+                                background-image: linear-gradient(var(--color) 0%, var(--color) 50%, var(--dark) 51%, var(--dark) 100%)
 
 
 
@@ -169,25 +188,25 @@ body
                 font-size: 0.8em
             
 
-            div.highlight
-                border-radius: 4px
-                pre.highlight
-                    padding: 16px
-                    border-radius: 4px
-                    overflow-x: auto
+            // div.highlight
+            //     border-radius: 4px
+            //     pre.highlight
+            //         padding: 16px
+            //         border-radius: 4px
+            //         overflow-x: auto
 
-                    code
-                        code
-                            counter-increment: linenumber
+            //         code
+            //             code
+            //                 counter-increment: linenumber
                     
-                        & > code::before
-                            content: counter(linenumber)
-                            width: 32px
-                            display: inline-block
-                            text-align: right
-                            margin-right: 16px
-                            font-weight: normal
-                            color: #EEEEEE
+            //             & > code::before
+            //                 content: counter(linenumber)
+            //                 width: 32px
+            //                 display: inline-block
+            //                 text-align: right
+            //                 margin-right: 16px
+            //                 font-weight: normal
+            //                 color: #EEEEEE
 
 img.emoji
     height: 1em
@@ -274,7 +293,7 @@ body.konami
                 font-size: unset
                 cursor: pointer
                 i
-                    color: var(--theme_color)
+                    color: var(--color)
                 &.clicked
                     height: 0
                     font-size: 0
