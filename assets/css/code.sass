@@ -26,7 +26,7 @@ pre.highlight
             width: 57px
             height: 57px
             line-height: 57px
-        .copy
+            user-select: none
             cursor: pointer
             &:hover
                 color: white
@@ -34,12 +34,13 @@ pre.highlight
     code
         display: table-cell
         vertical-align: top
-        white-space: break-spaces
+        white-space: initial
         &::selection
             background-color: #264f78
         code
             display: unset
             counter-increment: linenumber
+            line-height: 16px
             span
                 &::selection
                     background-color: #264f78
